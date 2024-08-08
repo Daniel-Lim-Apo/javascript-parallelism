@@ -8,7 +8,7 @@ Unlike languages ​​like C++ or Java, JavaScript is single-threaded, meaning 
 Here are some of the main methods for achieving parallelism in JavaScript that allow JavaScript to handle multiple tasks simultaneously, improving performance for I/O-bound and CPU-bound tasks.
 
 1. Web Workers
-Web Workers provide a way to run scripts on background threads. They allow you to perform tasks without interfering with the user interface.
+provide a way to run scripts on background threads. They allow you to perform tasks without interfering with the user interface.
 
 2. Promises and Async/Await
 Promises and `async/await` are used to handle asynchronous operations, allowing the main thread to continue executing other tasks while waiting for an operation to complete.
